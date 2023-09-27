@@ -32,15 +32,3 @@ While your server is running, check the console for any logs or error messages. 
 
 ### Test Error Handling:
 To test error handling, intentionally send requests with incorrect data or to non-existing routes and observe how the application responds with appropriate status codes and error messages.
-
-### Explore Database:
-If your project involves storing data in a MongoDB database, you can use a tool like MongoDB Compass or the MongoDB shell to connect to your database and check if the data is being stored and retrieved correctly.
-
-### Customize and Extend:
-Feel free to customize the project, add new features, or extend existing ones. Modify the product schema, routes, and logic to suit your specific needs.
-
-### Write Unit Tests (Optional):
-If you haven't already, consider writing unit tests for your endpoints and business logic using a testing framework like Jest. This can help ensure the reliability and correctness of your code.
-
-### Document the API (Optional):
-If this project is intended for use by others, consider documenting the API endpoints and their expected inputs and outputs using tools like Swagger or API documentation generators.
