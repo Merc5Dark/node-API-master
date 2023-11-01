@@ -6,7 +6,11 @@ const bodyParser = require('body-parser'); // For parsing request data
 app.use(bodyParser.json());
 
 // Simple data store
-const items = [];
+const items = [
+    { id: 1, name: 'Item 1' },
+    { id: 2, name: 'Item 2'},
+    { id: 3, name: 'IOtem 3'}
+];
 
 // GET endpoint to retrieve all items
 app.get('/api/items', (req, res) => {
